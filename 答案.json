@@ -156,7 +156,7 @@
     },
     {
       "题号": "M039-S001",
-      "查询语句": "cert.subject.cn=\"qq.com\""
+      "查询语句": "cert.domain=\"qq.com\""
     },
     {
       "题号": "M040-S011",
@@ -208,11 +208,11 @@
     },
     {
       "题号": "M052-S002",
-      "查询语句": "domain=\".io\" && app=\"WordPress\""
+      "查询语句": "host=\".io\" && app=\"WordPress\""
     },
     {
       "题号": "M053-S009",
-      "查询语句": "city=\"厦门\" && port=\"80\" && status_code=\"200\""
+      "查询语句": "city=\"Xiamen\" && port=\"80\" && status_code=\"200\""
     },
     {
       "题号": "M054-S009",
@@ -288,7 +288,7 @@
     },
     {
       "题号": "M072-S008",
-      "查询语句": "host=\".edu.ar\" && type=\"subdomain\" && (port=\"80\" || port=\"443\") && server!=\"nginx\" && app!=\"WAF\""
+      "查询语句": "host=\".edu.ar\" && type=\"subdomain\" && (port=\"80\" || port=\"443\") && server!=\"nginx\" && server!=\"waf\""
     },
     {
       "题号": "M073-S003",
@@ -392,7 +392,7 @@
     },
     {
       "题号": "M098-S001",
-      "查询语句": "body=\"msp.gov.cn\" && domain!=\"msp.gov.cn\""
+      "查询语句": "host=\"msp.gov.cn\" && domain!=\"msp.gov.cn\""
     },
     {
       "题号": "M099-S001",
